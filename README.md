@@ -10,14 +10,13 @@ Vous devrez **exposer** une **API Web** ainsi qu'un **client web** pour affich
 
 ### Fonctionnalités
 
-- [ ] Se connecter via un identifiant (exemple : email)
+- [ ] Se connecter via un identifiant (exemple : email) (Bonus : Mot de passe, JWT, ...)
 - [ ] Créer une todo-list et des tâches associées
 - [ ] Ajouter une tâche dans une todo-list existante
 - [ ] Seul le propriétaire de la todo-list peut la supprimer
 - [ ] Seul le propriétaire de la tâche ou de la todo-list parente peut la modifier/supprimer
 - [ ] Tous les autres utilisateurs peuvent voir les todo-list et tâches des autres
-- [ ] Bonus : pouvoir filtrer les tâches/todo-list à afficher
-- [ ] Bonus : identification avec un mot de passe
+- [ ] Pouvoir filtrer les tâches/todo-list à afficher
 
   
 
@@ -25,8 +24,14 @@ Vous devrez **exposer** une **API Web** ainsi qu'un **client web** pour affich
 
 *   Gestionnaire de version : **GIT** obligatoirement
 *   Librairies externes autorisées
-*   Framework libre
-*   Langage de programmation front et back libre
+*   Framework disponibles
+    * Back (PHP):
+        * Symfony
+        * API Platform
+    * Front:
+        * Angular
+        * React
+        * Flutter
 *   Base de données libre
 
   
@@ -55,4 +60,4 @@ Aucune limite de temps est imposée
 *    ![](https://a.slack-edge.com/production-standard-emoji-assets/13.0/google-medium/1f500.png) Maîtrise de git : messages de commit, nombre de commits, etc.
 *   ☁ Bonus : conteneurisation et/ou déploiement sur un hébergeur (Heroku, AWS, ...)
 *   ⚙ Bonus : Tests (unitaires, d'intégration, etc.)
-*   💡 Bonus : Idées supplémentaires implémentées
+*   💡Bonus : Idées supplémentaires implémentées
