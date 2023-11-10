@@ -24,7 +24,7 @@ Vous devrez **exposer** une **API Web** ainsi qu'un **client web** pour affich
 
 *   Gestionnaire de version : **GIT** obligatoirement
 *   Librairies externes autorisées
-*   Framework disponibles
+*   Frameworks disponibles
     * Back (PHP):
         * Symfony
         * API Platform
